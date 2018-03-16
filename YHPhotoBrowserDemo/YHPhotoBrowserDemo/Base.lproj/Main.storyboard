@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YHPhotoBrowserDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cTl-ZF-R2e"/>
+                        <viewControllerLayoutGuide type="bottom" id="SDd-AU-OlT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" tag="102" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IC7-Zt-VdC">
+                                <rect key="frame" x="197.5" y="100" width="177.5" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ufU-Wh-14f"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qDU-HH-DlB">
+                                <rect key="frame" x="0.0" y="100" width="177.5" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="J4G-pF-UG9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dok-AZ-Fvi">
+                                <rect key="frame" x="197.5" y="208" width="177.5" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="IWW-Yj-3Q5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9O9-3G-Rac">
+                                <rect key="frame" x="0.0" y="208" width="178" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="U09-TT-wYR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="106" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pPj-UV-PSy">
+                                <rect key="frame" x="197.5" y="316" width="177.5" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5b8-At-0nh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="105" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zvF-kq-toF">
+                                <rect key="frame" x="0.0" y="316" width="178" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="iyb-q4-94U"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pPj-UV-PSy" secondAttribute="trailing" id="11t-J7-9Q6"/>
+                            <constraint firstItem="IC7-Zt-VdC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="26X-nO-KtI"/>
+                            <constraint firstItem="9O9-3G-Rac" firstAttribute="top" secondItem="qDU-HH-DlB" secondAttribute="bottom" constant="8" id="5vU-Jb-9Bm"/>
+                            <constraint firstItem="pPj-UV-PSy" firstAttribute="top" secondItem="dok-AZ-Fvi" secondAttribute="bottom" constant="8" id="7UW-2W-91A"/>
+                            <constraint firstItem="IC7-Zt-VdC" firstAttribute="top" secondItem="cTl-ZF-R2e" secondAttribute="bottom" constant="80" id="7Yf-96-tU0"/>
+                            <constraint firstItem="dok-AZ-Fvi" firstAttribute="leading" secondItem="9O9-3G-Rac" secondAttribute="trailing" constant="20" id="8Pq-1z-dp8"/>
+                            <constraint firstItem="pPj-UV-PSy" firstAttribute="leading" secondItem="zvF-kq-toF" secondAttribute="trailing" constant="20" id="EFp-EQ-1ma"/>
+                            <constraint firstItem="IC7-Zt-VdC" firstAttribute="leading" secondItem="qDU-HH-DlB" secondAttribute="trailing" constant="20" id="Kof-2A-be8"/>
+                            <constraint firstItem="qDU-HH-DlB" firstAttribute="top" secondItem="cTl-ZF-R2e" secondAttribute="bottom" constant="80" id="Ofh-5E-6FT"/>
+                            <constraint firstItem="9O9-3G-Rac" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RsT-v3-sqe"/>
+                            <constraint firstItem="dok-AZ-Fvi" firstAttribute="top" secondItem="IC7-Zt-VdC" secondAttribute="bottom" constant="8" id="aBD-RR-uo9"/>
+                            <constraint firstItem="IC7-Zt-VdC" firstAttribute="width" secondItem="qDU-HH-DlB" secondAttribute="width" id="cMD-NW-BdK"/>
+                            <constraint firstItem="pPj-UV-PSy" firstAttribute="width" secondItem="zvF-kq-toF" secondAttribute="width" id="cfv-Kg-dcr"/>
+                            <constraint firstItem="zvF-kq-toF" firstAttribute="top" secondItem="9O9-3G-Rac" secondAttribute="bottom" constant="8" id="dZp-mN-WuK"/>
+                            <constraint firstItem="dok-AZ-Fvi" firstAttribute="width" secondItem="9O9-3G-Rac" secondAttribute="width" id="gEv-2j-OHg"/>
+                            <constraint firstItem="qDU-HH-DlB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="t4I-ey-w4Z"/>
+                            <constraint firstItem="zvF-kq-toF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vRc-CW-4tN"/>
+                            <constraint firstAttribute="trailing" secondItem="dok-AZ-Fvi" secondAttribute="trailing" id="xBp-Lb-r3Y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
