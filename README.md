@@ -8,4 +8,4 @@ Swift实现的网络图片浏览器<br/>
 let vc = YHPhotoBrowserController.photoBrowser(selectedIndex: selectedIndex, urls: bigImageArray, parentImageViews: imageViews)<br/>
 self.present(vc, animated: true, completion: nil)<br/>
 
-![](http://img.blog.csdn.net/20180316172820184)
+![](https://yqh1988.oss-cn-beijing.aliyuncs.com/yqh/11.gif)
